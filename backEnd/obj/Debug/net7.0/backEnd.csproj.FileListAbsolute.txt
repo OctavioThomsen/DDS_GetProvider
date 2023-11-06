@@ -31,3 +31,12 @@ D:\DDS_GetProvider\backEnd\obj\Debug\net7.0\refint\backEnd.dll
 D:\DDS_GetProvider\backEnd\obj\Debug\net7.0\backEnd.pdb
 D:\DDS_GetProvider\backEnd\obj\Debug\net7.0\backEnd.genruntimeconfig.cache
 D:\DDS_GetProvider\backEnd\obj\Debug\net7.0\ref\backEnd.dll
+D:\DDS_GetProvider\backEnd\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.dll
+D:\DDS_GetProvider\backEnd\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\DDS_GetProvider\backEnd\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.InMemory.dll
+D:\DDS_GetProvider\backEnd\bin\Debug\net7.0\System.Data.SqlClient.dll
+D:\DDS_GetProvider\backEnd\bin\Debug\net7.0\runtimes\win-arm64\native\sni.dll
+D:\DDS_GetProvider\backEnd\bin\Debug\net7.0\runtimes\win-x64\native\sni.dll
+D:\DDS_GetProvider\backEnd\bin\Debug\net7.0\runtimes\win-x86\native\sni.dll
+D:\DDS_GetProvider\backEnd\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\DDS_GetProvider\backEnd\bin\Debug\net7.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
