@@ -4,6 +4,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { PaginaPrincipalComponent } from './components/pagina-principal/pagina-principal.component';
+import { MainModule } from './main/main.module';
 
 @NgModule({
   declarations: [
@@ -12,7 +13,8 @@ import { PaginaPrincipalComponent } from './components/pagina-principal/pagina-p
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    MainModule
   ],
   providers: [],
   bootstrap: [AppComponent]
