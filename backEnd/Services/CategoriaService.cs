@@ -1,9 +1,6 @@
 ﻿using backEnd.Models;
 using backEnd.Helpers;
 using System.Data.SqlClient;
-using Microsoft.Extensions.Hosting;
-using static Microsoft.EntityFrameworkCore.DbLoggerCategory;
-using System.Data.Common;
 
 namespace backEnd.Services
 {
