@@ -6,7 +6,9 @@
     <form>
       <div class="form-group">
         <label for="content">Categorias</label>
+        
         <select class="form-control" name="categoria" id="categoria">
+            <option>Sin especificar</option>
             <option *ngFor="let categoria of categorias" [value]="categoria.id">
               {{ categoria.nombre }}</option>
         </select>
@@ -14,6 +16,7 @@
       <div class="form-group">
         <label for="content">Subcategorias</label>
         <select class="form-control" name="subcategoria" id="subcategoria">
+            <option>Sin especificar</option>
             <option *ngFor="let subcategoria of subcategorias" [value]="subcategoria.id">
               {{ subcategoria.nombre }}</option>
         </select>
@@ -21,6 +24,7 @@
       <div class="form-group">
         <label for="content">Producto</label>
         <select class="form-control" name="producto" id="producto">
+            <option>Sin especificar</option>
             <option *ngFor="let producto of productos" [value]="producto.id">
               {{ producto.nombre }}</option>
         </select>
@@ -28,6 +32,7 @@
       <div class="form-group">
         <label for="content">Marca</label>
         <select class="form-control" name="marca" id="marca">
+            <option>Sin especificar</option>
             <option *ngFor="let marca of marcas" [value]="marca.id">
               {{ marca.nombre }}</option>
         </select>
@@ -35,6 +40,7 @@
       <div class="form-group">
         <label for="content">Modelo</label>
         <select class="form-control" name="modelo" id="modelo">
+            <option>Sin especificar</option>
             <option *ngFor="let modelo of modelos" [value]="modelo.id">
               {{ modelo.nombre }}</option>
         </select>
