@@ -8,7 +8,7 @@ namespace backEnd.Services
     {
         public async Task<List<Categoria>> GetCategorias()
         {
-            List<Categoria> listaCategoria = new List<Categoria>();
+            List<Categoria> listaCategorias = new List<Categoria>();
 
             using (SqlCommand cmd = await DBConnectionHelper.getConnectedSqlCommand("SELECT * FROM CATEGORIA"))
             {
@@ -22,11 +22,11 @@ namespace backEnd.Services
                         categoria.ID_CATEGORIA = (int)sqlDataReader["ID_CATEGORIA"];
                         categoria.NOMBRE = (string)sqlDataReader["NOMBRE"];
 
-                        listaCategoria.Add(categoria);
+                        listaCategorias.Add(categoria);
                     }
                 }
             }
-            return listaCategoria;
+            return listaCategorias;
         }
     }
 }

@@ -2,15 +2,12 @@
 
 namespace backEnd.Models
 {
-    public class Subcategoria
+    public class Marca
     {
         [Key]
-        public int ID_SUBCATEGORIA { get; set; }
+        public int ID_MARCA { get; set; }
 
         [Required]
         public string NOMBRE { get; set; }
-
-        [Required]
-        public int ID_CATEGORIA { get; set; }
     }
 }

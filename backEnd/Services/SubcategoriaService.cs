@@ -8,7 +8,7 @@ namespace backEnd.Services
     {
         public async Task<List<Subcategoria>> GetSubcategorias()
         {
-            List<Subcategoria> listaSubcategoria = new List<Subcategoria>();
+            List<Subcategoria> listaSubcategorias = new List<Subcategoria>();
 
             using (SqlCommand cmd = await DBConnectionHelper.getConnectedSqlCommand("SELECT * FROM SUBCATEGORIA"))
             {
@@ -21,12 +21,13 @@ namespace backEnd.Services
                         Subcategoria subcategoria = new();
                         subcategoria.ID_SUBCATEGORIA = (int)sqlDataReader["ID_SUBCATEGORIA"];
                         subcategoria.NOMBRE = (string)sqlDataReader["NOMBRE"];
+                        subcategoria.ID_CATEGORIA = (int)sqlDataReader["ID_CATEGORIA"];
 
-                        listaSubcategoria.Add(subcategoria);
+                        listaSubcategorias.Add(subcategoria);
                     }
                 }
             }
-            return listaSubcategoria;
+            return listaSubcategorias;
         }
     }
 }
