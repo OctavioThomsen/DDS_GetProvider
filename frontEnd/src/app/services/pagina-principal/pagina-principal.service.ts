@@ -1,5 +1,4 @@
 import { Injectable } from '@angular/core';
-import { HttpClient } from '@angular/common/http';
 
 const apiUrl: string = 'https://localhost:44309/api/Categoria/GetCategorias'
 

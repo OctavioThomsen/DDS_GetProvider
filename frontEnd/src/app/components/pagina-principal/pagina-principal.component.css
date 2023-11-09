@@ -1,0 +1,104 @@
+
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica, Arial, sans-serif;
+    background-color: #047578;
+    color: #ffffff;
+  }
+  header {
+    background-color: #047578;
+    padding: 20px;
+    text-align: center;
+  }
+  .container {
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    max-width: 600px;
+  }
+  .form-group {
+    margin-bottom: 20px;
+  }
+  label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #056264;
+  }
+  select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  .checkbox-group {
+    margin-top: 20px;
+  }
+  .checkbox {
+    margin-bottom: 10px;
+  }
+  .checkbox label {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 5px;
+  }
+  .center-button {
+    text-align: center;
+  }
+  button {
+    background-color: #047578;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .resultados-list {
+    margin-top: 30px;
+    padding: 0;
+    list-style: none;
+  }
+  .proveedor-header {
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #047578;
+  }
+  .proveedor {
+    color: #047578;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0;
+    font-weight: bold;
+    font-size: 18px;
+    height: 100px;
+    border-bottom: 1px solid #ffffff;
+  }
+  .proveedor:last-child {
+    border-bottom: none;
+  }
+  .gray-line {
+    border-bottom: 1px solid #f2f2f2;
+  }
+  .fav-button {
+    width: 30px;
+    height: 40px;
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQwG2hpGXWbaQ39bwHbouSoyeLRuR2HUECcMclyQ3zo9xt_IXJJ3oX-DbmwJt3hE2gkxsk&usqp=CAU');
+    background-size: cover;
+    border: none;
+    cursor: pointer;
+  }
+  .ver-button {
+    width: 30x;
+    height: 40px;
+    background-image: url(https://static.vecteezy.com/system/resources/previews/006/086/018/non_2x/preview-show-interface-icon-free-vector.jpg);
+    background-size: cover;
+    border: none;
+    cursor: pointer;
+  }
