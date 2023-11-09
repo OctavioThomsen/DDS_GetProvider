@@ -3,7 +3,6 @@ import { HttpClient } from '@angular/common/http';
 import { Observable } from 'rxjs';
 import { Categoria } from 'src/app/models/categoria/categoria';
 
-
 const apiUrl: string = 'https://localhost:44309/api/Categoria/GetCategorias'
 
 @Injectable({
