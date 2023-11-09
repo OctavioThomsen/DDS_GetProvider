@@ -9,7 +9,6 @@ import { Producto } from 'src/app/models/producto/producto';
 import { ProductoService } from 'src/app/services/producto/producto.service';
 import { Modelo } from 'src/app/models/modelo/modelo';
 import { ModeloService } from 'src/app/services/modelo/modelo.service';
-import { Proveedor } from 'src/app/models/proveedor/proveedor';
 
 @Component({
   selector: 'app-pagina-principal',
@@ -24,11 +23,6 @@ export class PaginaPrincipalComponent implements OnInit {
     modelos: Modelo[] = [];
 
     busqueda: number = 0;
-
-    proveedores: Proveedor[] = [
-      new Proveedor("hola"),
-      new Proveedor("chau")
-    ];
 
   constructor(
     private categoriaService: CategoriaService,
